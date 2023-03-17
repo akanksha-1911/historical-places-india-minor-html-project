@@ -1,0 +1,24 @@
+h1{
+    color: brown; 
+    background-color: aliceblue;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+/* id name */
+
+#myid{
+
+    color: blue;
+    background-color: aliceblue;
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* class name */
+.myclass{
+    color: blueviolet;
+    background-color: beige;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}

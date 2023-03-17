@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #a{grid-area: a1;} */
+        /* #b{grid-area: b1;} */
+        /* #c{grid-area: c1;} */
+        /* #d{grid-area: d1;} */
+        /* #e{grid-area: e1;} */
+
+        #maindiv{
+
+             /* flex: row or column one dimentional  */
+             display: grid;
+            grid-template-areas: 'a1 a1 a1 a1 a1 a1'
+            'b1 b1 b1 c1 c1 c1'
+            'd1 d1 d1 e1 e1 e1'; 
+            /* display: flex;
+            flex-direction: row;
+            color:black; */
+            background-image: linear-gradient(120deg,pink,rgb(201, 201, 224)); 
+            /* background-color: orange;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center; */
+            box-shadow: 10px 10px 20px black;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px; 
+            text-decoration: solid;
+            box-shadow: 20px 20px 20px red;
+        }
+        #maindiv > div{
+
+            background-color: orange;
+            /* grid-gap: 20px; */
+            border-radius: 20px;
+            padding: 20px 5%;
+            margin: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- grid box-combination of rows and columns -->
+
+<div id="maindiv">
+    <div id="a"><img height=100px width=200px src="wp6351056.jpg" ></div>
+    <div id="b"><img height=100px width=200px src="pexels-marina-gr-14917159.jpg"></div>
+    <div id="c"><img height=100px width=200px src="20221119_130057.jpg"></div>
+    <div id="d"><img height=100px width=200px src="IMG-20230101-WA0036.jpg"></div>
+    <div id="e"><img height=100px width=200px src="20211229_213409.jpg"></div>
+</div>    
+    
+</body>
+</html>
